@@ -47,7 +47,7 @@ class AutocompleteConfigProvider implements ConfigProviderInterface
      * @param \ShipperHQ\Shipper\Helper\Data $helper
      */
     public function __construct(
-        \ShipperHQ\Shipper\Helper\Data $helper
+        \ShipperHQ\Shipper\Helper\Data $helper //this is not available inside Helper folder!!
     ) {
     
         $this->helper = $helper;
